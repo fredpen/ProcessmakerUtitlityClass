@@ -30,11 +30,26 @@
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>ProcessMaker</h3>
+                <h4><img src="images/ps.png" alt="home" class="home-icon" width="20%"> PM</h4>
                 <strong>PM</strong>
             </div>
 
             <ul class="list-unstyled components">
+                <li>
+                    <a href="#textareaSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+                        <i class="fas fa-briefcase"></i>
+                        Textarea
+                    </a>
+                    <ul class="collapse list-unstyled" id="textareaSubmenu">
+                        <li>
+                            <a onclick="switchTab('textareajs')">JS Functions</a>
+                        </li>
+                        <li>
+                            <a onclick="switchTab('textareaphp')">PHP Functions</a>
+                        </li>
+                    </ul>
+                </li>
+
                 <li class="active">
                     <a href="#gridSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                         <i class="fas fa-home"></i>
@@ -65,20 +80,7 @@
                     </ul>
                 </li>
 
-                <li>
-                    <a href="#textareaSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
-                        <i class="fas fa-briefcase"></i>
-                        Textarea
-                    </a>
-                    <ul class="collapse list-unstyled" id="textareaSubmenu">
-                        <li>
-                            <a href="#">JS Functions</a>
-                        </li>
-                        <li>
-                            <a href="#">PHP Triggers</a>
-                        </li>
-                    </ul>
-                </li>
+
 
                 <li>
                     <a href="#imageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
